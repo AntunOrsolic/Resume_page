@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Antun Orsolic CV</title>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="stylesheet" href="style.css" />
+    <link
+      rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css"/>
+  </head>
+  <body>
+    <!-- Navbar -->
+    <nav class="navbar navbar-default">
+      <div class="container">
+        <div class="navbar-header">
+          <a class="navbar-brand" href="#">AO design</a>
+        </div>
+        <div class="collapse navbar-collapse" id="myNavbar">
+          <ul class="nav navbar-nav navbar-right">
+            <li><a href="#about">ABOUT</a></li>
+            <li><a href="#experience">EXPERIENCE</a></li>
+            <li><a href="#skills">SKILLS</a></li>
+            <li><a href="#contact">CONTACT</a></li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+    <!-- First Container -->
+    <div class="container-fluid bg-1">
+      <h3 class="margin" id="about">Who am I?</h3>
+      <img src="me.jpg" class="img-responsive img-circle margin" alt="My photo" />
+      <h3>I'm a Frontend developer</h3>
+      <p class="about-me">
+        High school teacher and experienced graphic designer who attended and
+        finished an Algebra course - specializing in Front-end development.
+        Beginner level at web development with good knowledge of HTML, CSS &
+        SCSS. Strong background in Adobe Photoshop with 10+ years of experience
+        in various projects, mostly sports design. Beginner level in Adobe
+        Illustrator with a desire to master it. Familiar with the Figma tool,
+        currently learning UX/UI design at Udemy.com. Always ready to learn new
+        skills and technologies.
+      </p>
+    <div class="container-icon">
+      <a href="https://github.com/AntunOrsolic"><img src="github.png" class="img-thumbnail" alt="Github"></a>
+      <a href="https://www.linkedin.com/in/antunorsolic/"><img src="linkedin.png" class="img-thumbnail" alt="Linkedin"></a>
+    </div>
+    </div>
+
+    <!-- Second Container -->
+    <div class="container-fluid bg-2">
+      <h3 class="margin" id="experience">My experience</h3>
+        <ul class="experience">
+          <ol>
+            <li>07/2023 – present: NK Graničar Županja - Graphic designer & SM manager, Županja</li>
+            <li>09/2015 – present: MNK Futsal Sveti Patrik - President & graphic designer, Županja</li>
+            <li>06/2015 – 06/2021: Gimnazija Županja (High school) – Professor, Županja</li>
+            <li>08/2020 – 08/2022: Futshop - CEO at Futshop.hr, Županja</li>
+            <li>09/2010 – 04/2017: Elementary school – Teacher, Županja, Vrbanja, Sibinj, Vinkovci</li>
+            <li>02/2015 – 10/2015: Narod.hr - Sports Editor and journalist, Zagreb (remote)</li>
+            <li>10/2012 – 10/2015: Catholic futsal league - Regional league manager for KMNL, Županja</li>
+            <li>09/2012 – 01/2014: Dvoznak.com Soccer analyst and journalist, Zagreb (remote)</li>
+            <li>01/2012 – 04/2013: Sport-danas.com - Editor & Sportswriter/photographer, Đakovo</li>
+          </ol>
+      </ul>
+    </div>
+
+    <!-- Third Container -->
+    <div class="container-fluid-skill bg-3">
+      <h3 class="margin" id="skills">My skills & knowledge</h3>
+      <br />
+      <div class="skill-bars">
+        <div class="bar">
+          <div class="info">
+            <span>HTML</span>
+          </div>
+          <div class="progress-line html">
+            <span></span>
+          </div>
+        </div>
+        <div class="bar">
+          <div class="info">
+            <span>CSS</span>
+          </div>
+          <div class="progress-line css">
+            <span></span>
+          </div>
+        </div>
+        <div class="bar">
+          <div class="info">
+            <span>jQuery</span>
+          </div>
+          <div class="progress-line jquery">
+            <span></span>
+          </div>
+        </div>
+        <div class="bar">
+          <div class="info">
+            <span>React</span>
+          </div>
+          <div class="progress-line react">
+            <span></span>
+          </div>
+        </div>
+        <div class="bar">
+          <div class="info">
+            <span>Figma</span>
+          </div>
+          <div class="progress-line figma">
+            <span></span>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Fourth Container -->
+    <div class="container-fluid-contact bg-1">
+      <div class="container py-5">
+        <div class="row py-5 g-3">
+            <div class="col-md-6 first_col ">
+                <h1 class="text-center mt-3" id="contact">Contact Me</h1>
+                <form class="p-4 mt-5" method="post" action="process_form.php">
+                    <div class="mb-3">
+                        <label for="FormControlInput1" class="form-label">Enter your Name</label>
+                        <input type="text" class="form-control" id="FormControlInput1">
+                    </div>
+                    <div class="mb-3">
+                        <label for="FormControlInput2" class="form-label">Enter you Email</label>
+                        <input type="text" class="form-control" id="FormControlInput2">
+                    </div>
+                    <div class="mb-3">
+                        <label for="FormControlTextarea1" class="form-label">Enter your massage</label>
+                        <textarea  type="text" class="form-control" id="FormControlTextarea1" rows="3"></textarea>
+                    </div>
+                    <div class="mb-3">
+                        <button class="btn">Send Now</button>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>
+    </div>
+  
+    <!-- Footer -->
+    <footer class="container-fluid bg-4">
+      <p class="footer-text">Personal CV of Antun Orsolic © 2023</p>
+    </footer>
+  </body>
+</html>
